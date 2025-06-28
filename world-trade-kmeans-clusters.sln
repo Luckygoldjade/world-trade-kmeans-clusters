@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "world-trade-kmeans-clusters", "world-trade-kmeans-clusters.pyproj", "{7FB6D0DF-8250-45EE-97B3-7BC0245369FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FB6D0DF-8250-45EE-97B3-7BC0245369FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FB6D0DF-8250-45EE-97B3-7BC0245369FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7032B4C2-4681-485B-98F0-ACEA39DFDE70}
+	EndGlobalSection
+EndGlobal
