@@ -9,21 +9,17 @@ This project explores how international trade and tariffs impact global economie
 
 ## Project Structure
 
-world-trade-kmeans-clusters/<br>
-│
-├── trade_analysis.py # Main Python analysis file<br>
-├── requirements.txt # Python dependencies<br>
-├── README.md # This file<br>
-│
-├── data/<br>
-│ ├── raw/ # Original CSVs from Kaggle and APIs<br>
-│ └── cleaned/ # Cleaned and clustered versions<br>
-│
-├── output/ # Python-generated model visualizations<br>
-│ └── *.png # Elbow plot, clusters, confusion matrix, tree<br>
-│
-├── docs/ # Screenshots and visual supports from report<br>
-│ └── *.png # Census, WTO, WITS interfaces<br>
+- Project Root: world-trade-kmeans-clusters/
+  - world-trade-kmeans-clusters.py: Main Python analysis file
+  - requirements.txt: Python dependencies
+  - README.md: This file
+  - data/
+    - raw/: Original CSVs from Kaggle and APIs
+    - cleaned/: Cleaned and clustered data
+  - output/
+    - *.png: Model visualizations (elbow, clusters, etc.)
+  - docs/
+    - *.png and *.pdf: Screenshots and report visuals
 
 ---
 
@@ -108,11 +104,11 @@ pip install -r requirements.txt
 python world-trade-kmeans-clusters.py
 
 ## Key Findings
-Countries form natural trade clusters based on export/import volumes
-Decision tree accuracy: ~77% predicting "Export Dependence"
-U.S. tariffs are decreasing over time — inversely correlated with trade volume growth
-Free trade policies benefit both large and small economies
+Countries form natural trade clusters based on export/import volumes<br>
+Decision tree accuracy: ~77% predicting "Export Dependence"<br>
+U.S. tariffs are decreasing over time — inversely correlated with trade volume growth<br>
+Free trade policies benefit both large and small economies<br>
 
 ## License
-This project is open for review by instructors, recruiters, and collaborators.
-Feel free to reference or fork for educational and non-commercial purposes.
+This project is open for review by instructors, recruiters, and collaborators.<br>
+Feel free to reference or fork for educational and non-commercial purposes.<br>
